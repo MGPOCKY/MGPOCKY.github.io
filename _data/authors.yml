@@ -1,0 +1,9 @@
+# Author display rules for publication lists.
+#   bold: true  -> shown in bold (use for yourself)
+#   url: ...    -> linked to the given page
+#   name: ...   -> display name, if the key needs to be disambiguated (e.g. "John Doe (MIT)")
+"Kyungmin Kim":
+  bold: true
+
+"Sungho Lee":
+  url: https://cnu-ants.github.io/members/sunghol

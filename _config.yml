@@ -1,0 +1,46 @@
+# Site settings
+# These values are used by the layouts, jekyll-seo-tag, and jekyll-feed.
+title: Kyungmin Kim
+author: Kyungmin Kim
+description: >-
+  Personal homepage of Kyungmin Kim, M.S. student in Computer Science and Engineering
+  at Chungnam National University (Software Analysis & Testing Research Group).
+url: "https://mgpocky.github.io"
+baseurl: "" # the subpath of your site, e.g. /blog
+lang: en
+timezone: Asia/Seoul
+# google_analytics: "G-XXXXXXXXXX"  # Set a GA4 measurement ID to enable analytics (production builds only).
+
+# Build settings
+markdown: kramdown
+kramdown:
+  input: GFM
+
+# All of these plugins are whitelisted by GitHub Pages (https://pages.github.com/versions/).
+plugins:
+  - jekyll-seo-tag
+  - jekyll-feed
+  - jekyll-sitemap
+
+collections:
+  - publications
+  - news
+  - posts
+
+defaults:
+  # Blog posts: no need to repeat `layout` in every post.
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: blog_post
+      permalink: /blog/:year/:month/:day/:title/
+
+exclude:
+  - README.md
+  - LICENSE
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - node_modules
+  - .claude

@@ -1,0 +1,11 @@
+homepage:
+  show_experience: true
+  show_news: true
+  # Set to true once you have publications marked `selected: true` in _publications/.
+  show_selected_publications: false
+  num_news: 10
+
+# Footer text. Keeping the link to the template is appreciated by its author.
+footer_text: >-
+  <a href="https://github.com/MGPOCKY" target="_blank">© 2026 Kyungmin Kim</a>
+  &middot; Built with <a href="https://github.com/luost26/academic-homepage" target="_blank">academic-homepage</a>

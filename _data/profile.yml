@@ -1,0 +1,82 @@
+primary_name: "Kyungmin Kim"
+secondary_name: "김경민"
+navbar_name: "Kyungmin Kim"
+
+positions:
+- name: M.S. Student
+- name: >-
+    <a href="https://cnu-ants.github.io/" target="_blank">Software Analysis &amp; Testing Research Group (ANTS)</a>
+- name: Chungnam National University (CNU)
+  logo: /assets/images/badges/cnu-emblem.png  # Logo is optional
+
+email: "kkm1447@o.cnu.ac.kr"
+# cv_link: /assets/files/cv.pdf
+# gscholar: your_google_scholar_id   # e.g. SufoxKEAAAAJ (the `user=` value in your Scholar URL)
+github: MGPOCKY
+linkedin: mgpocky
+# twitter: your_twitter_id  # Do not include the '@' symbol
+# orcid: 0000-0000-0000-0000
+
+short_bio_text_justify: false
+short_bio: >-
+  <p>
+    I am an M.S. student in the Department of Computer Science and Engineering at
+    <a href="https://plus.cnu.ac.kr/html/en/" target="_blank">Chungnam National University (CNU)</a>,
+    where I am a member of the
+    <a href="https://cnu-ants.github.io/" target="_blank">Software Analysis &amp; Testing Research Group (ANTS)</a>
+    advised by <a href="https://cnu-ants.github.io/members/sunghol" target="_blank">Prof. Sungho Lee</a>.
+  </p>
+
+  <p>
+    My research focuses on <b>automated software testing</b>. I have previously worked on
+    analyzing <b>GitHub Actions</b> workflows, and my current research explores techniques for
+    generating effective inputs for <b>fuzzing</b>.
+  </p>
+
+  <p class="mb-0">
+    <b>Research interests:</b>
+    <span class="badge badge-light border">Static Analysis</span>
+    <span class="badge badge-light border">GitHub Actions</span>
+    <span class="badge badge-light border">Automated Testing</span>
+  </p>
+
+portrait_url: /assets/images/photos/kyungmink.jpg
+portrait_caption: >-
+  Kyungmin Kim
+
+education:
+- name: Chungnam National University (CNU)
+  logo: /assets/images/badges/cnu-emblem.png
+  dept: Department of Computer Science and Engineering
+  position: >-
+    M.S. Student (Advisor: <a href="https://cnu-ants.github.io/members/sunghol" target="_blank">Prof. Sungho Lee</a>)
+  date: Mar. 2026 - present
+- name: Chungnam National University (CNU)
+  logo: /assets/images/badges/cnu-emblem.png
+  dept: Department of Computer Science and Engineering
+  position: B.S. in Computer Science and Engineering
+  date: Mar. 2019 - Feb. 2026
+
+# `logo` is optional here; a briefcase icon is shown when it is omitted.
+experience:
+- name: Global Software Program (Qualcomm Institute, UC San Diego)
+  position: Program Participant
+  date: Dec. 2024 - Feb. 2025
+- name: MI-333 (Global Internship)
+  position: Software Engineering Team
+  date: Jul. 2024 - Sep. 2024
+- name: HayanMind
+  position: Software Engineering Team
+  date: Jan. 2021 - Oct. 2023
+
+awards:
+- name: Grand Prize (대상), 6th SOGRA Hackathon, Chungnam National University
+  date: 2024
+- name: Gold Prize (금상), 11th DevDay Coding Test, Chungnam National University
+  date: 2020
+- name: Gold Prize (금상), 10th DevDay Coding Test, Chungnam National University
+  date: 2020
+
+# teaching:
+# - name: "TA: Course Name (CODE)"
+#   date: Spring 2027
