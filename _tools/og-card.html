@@ -1,0 +1,30 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
+<style>
+  html, body { margin: 0; width: 1200px; height: 630px; overflow: hidden; }
+  body { background: #212529; color: #fff; font-family: "Lato", "Apple SD Gothic Neo", "Helvetica Neue", Arial, sans-serif; -webkit-font-smoothing: antialiased; }
+  .card { position: relative; width: 1200px; height: 630px; padding: 72px 84px; box-sizing: border-box; display: flex; flex-direction: column; justify-content: space-between; }
+  .accent { position: absolute; right: -140px; top: -160px; width: 520px; height: 520px; border-radius: 50%; background: radial-gradient(circle at 35% 35%, rgba(59,130,246,.55) 0%, rgba(59,130,246,0) 70%); }
+  .top { display: flex; align-items: center; gap: 20px; position: relative; }
+  .mark { width: 64px; height: 64px; border-radius: 14px; background: #fff; color: #212529; font-weight: 900; font-size: 40px; display: flex; align-items: center; justify-content: center; }
+  .url { font-size: 26px; color: #adb5bd; letter-spacing: .02em; }
+  .name { font-size: 96px; font-weight: 900; line-height: 1.05; margin: 0; position: relative; }
+  .kor { font-size: 40px; font-weight: 400; color: #adb5bd; margin-left: 22px; }
+  .pos { margin-top: 22px; font-size: 32px; color: #dee2e6; line-height: 1.5; position: relative; }
+  .muted { color: #adb5bd; }
+  .emblem { height: 34px; vertical-align: -7px; margin-right: 12px; }
+  .tags { display: flex; gap: 14px; flex-wrap: wrap; position: relative; }
+  .tag { border: 2px solid #495057; border-radius: 999px; padding: 8px 22px; font-size: 24px; color: #ced4da; }
+</style></head>
+<body><div class="card">
+  <div class="accent"></div>
+  <div class="top"><div class="mark">K</div><div class="url">mgpocky.github.io</div></div>
+  <div>
+    <h1 class="name">Kyungmin Kim<span class="kor">김경민</span></h1>
+    <div class="pos">M.S. Student &middot; Software Analysis &amp; Testing Research Group (ANTS)<br>
+      <img class="emblem" src="../assets/images/badges/cnu-emblem.png"><span class="muted">Chungnam National University</span></div>
+  </div>
+  <div class="tags"><span class="tag">Static Analysis</span><span class="tag">GitHub Actions</span><span class="tag">Automated Testing</span></div>
+</div></body></html>

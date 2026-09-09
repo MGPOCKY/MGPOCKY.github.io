@@ -20,6 +20,7 @@ GitHub Pages builds the `master` branch automatically on every push; no CI confi
 | Blog posts | `_posts/` |
 | Portrait, logos, blog figures | `assets/images/` |
 | Site URL, timezone, Google Analytics, plugins | `_config.yml` |
+| Link-preview (Open Graph) card | `assets/images/og-card.png`, source in `_tools/og-card.html` |
 | Layouts and reusable widgets | `_layouts/`, `_includes/widgets/` |
 
 ## Common edits
@@ -61,6 +62,18 @@ contents are supported.
 Posts automatically use the `blog_post` layout and the URL `/blog/YYYY/MM/DD/slug/`
 (add `permalink:` to override). Put figures in `assets/images/post_figures/<slug>/` and
 reference them as `{{ '/assets/images/post_figures/<slug>/figure.png' | relative_url }}`.
+
+### Link-preview card
+Messengers and social sites show `assets/images/og-card.png` (declared in `_config.yml` under
+`defaults`) instead of the portrait. To change it, edit `_tools/og-card.html` and re-render it with
+headless Chrome:
+
+```bash
+"/Applications/Google Chrome.app/Contents/MacOS/Google Chrome" --headless=new --disable-gpu --hide-scrollbars \
+  --user-data-dir=/tmp/og-profile --window-size=1200,630 --force-device-scale-factor=2 --virtual-time-budget=10000 \
+  --screenshot=/tmp/og-card@2x.png "file://$PWD/_tools/og-card.html" \
+&& sips -z 630 1200 /tmp/og-card@2x.png --out assets/images/og-card.png
+```
 
 ## Running locally
 
