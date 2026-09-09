@@ -11,6 +11,9 @@ body_attr: >-
 
 <div class="row">
     <div class="col-12 col-lg-10">
+        {% if blogs_by_year == empty %}
+        <div class="my-3 p-4 bg-white shadow-sm rounded-xl text-muted">No posts yet.</div>
+        {% endif %}
         {% for year in blogs_by_year %}
         {% assign num_blogs = year.items | size %}
         <h2 class="pt-4" id="year-{{ year.name }}">{{ year.name }}</h2>

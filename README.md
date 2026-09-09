@@ -44,6 +44,7 @@ date: 2026-09-09 12:00:00 +0900
    papers on the homepage.
 
 ### Blog posts
+The **Blog** entry in `_data/navigation.yml` is commented out; uncomment it once you have posts.
 Create `_posts/YYYY-MM-DD-slug.md`:
 
 ```yaml

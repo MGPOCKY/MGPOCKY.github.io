@@ -6,5 +6,6 @@ pages:
 # Uncomment once you have entries in _publications/ (see _publications/_example.md).
 # - name: Publications
 #   url: /publications/
-- name: Blog
-  url: /blog/
+# Uncomment once you have posts in _posts/ (see README.md).
+# - name: Blog
+#   url: /blog/

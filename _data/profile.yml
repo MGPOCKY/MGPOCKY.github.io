@@ -57,15 +57,18 @@ education:
   position: B.S. in Computer Science and Engineering
   date: Mar. 2019 - Feb. 2026
 
-# `logo` is optional here; a briefcase icon is shown when it is omitted.
+# `logo` is optional here; a briefcase icon is shown when it is omitted. `url` links the name.
 experience:
-- name: Global Software Program (Qualcomm Institute, UC San Diego)
+- name: Global Software Program (Qualcomm - UCSD)
+  url: https://www.etnews.com/20250326000283
   position: Program Participant
   date: Dec. 2024 - Feb. 2025
-- name: MI-333 (Global Internship)
+- name: Global Internship (MI-333)
+  url: https://www.iotiq.de/
   position: Software Engineering Team
   date: Jul. 2024 - Sep. 2024
 - name: HayanMind
+  url: https://hayanmind.com/
   position: Software Engineering Team
   date: Jan. 2021 - Oct. 2023
 
