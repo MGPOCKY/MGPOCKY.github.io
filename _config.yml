@@ -28,6 +28,15 @@ collections:
   - posts
 
 defaults:
+  # Social sharing card used by link previews (Open Graph / Twitter) instead of the portrait.
+  - scope:
+      path: ""
+    values:
+      image:
+        path: /assets/images/og-card.png
+        width: 1200
+        height: 630
+        alt: Kyungmin Kim - M.S. Student, Chungnam National University
   # Blog posts: no need to repeat `layout` in every post.
   - scope:
       path: ""
